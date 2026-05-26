@@ -1,3 +1,4 @@
+function isOddOrEven(){
 const number = 6
 
 // It check whether the entered value is Number or not.
@@ -8,3 +9,6 @@ if(isNaN(number)){
 } else {
     console.log("its a Odd number")
 }
+}
+
+isOddOrEven()
