@@ -1,17 +1,16 @@
 function launchBrowser(){
-    let browserName = "Firefox"
+    let browserName = "safari"
 
-    if(browserName == "Chrome"){
+    if(browserName === "Chrome"){
         console.log("Chrome browser launched")
-    }else if(browserName == "Firefox"){
-        console.log("Firefox borwser launched")
+    }else if(browserName === "Firefox"){
+        console.log("Firefox browser launched")
     }else {
         console.log("Select proper browser")
     }
 }
-//---------------
 
-function  runTest(){
+function runTest(){
     let testType = "Regression"
 
     switch(testType){
@@ -29,9 +28,8 @@ function  runTest(){
             break;
 
         default:
-            console.log("Somke testing required/ in-progress")
+            console.log("Smoke testing required/ in-progress")
             break;
-
     }
 }
 
